@@ -1,0 +1,13 @@
+<!--page/index/index.wxml-->
+<view class="containner">
+    <view class="demo">
+        <text class="title">demo:</text>
+        <view class="demo-example" 
+            wx:for="{{demos}}" 
+            wx:key="index"
+            data-url="{{item.url}}"
+            bindtap="toDemo">
+            {{index+1}}.{{item.title}}
+        </view>
+    </view>
+</view>
