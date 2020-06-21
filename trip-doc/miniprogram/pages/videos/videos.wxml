@@ -1,0 +1,13 @@
+<!--pages/videos/videos.wxml-->
+<view class='videos_title'>
+  <text>Videos</text>
+</view>
+<view class='videos_list'>
+  <video class='video_item' src="{{url}}" binderror="videoErrorCallback"></video>
+  <view class='video_desc'>
+    <text>Video of Tencent University</text>
+    <text>2018-11-12by<text class='author'>waltz</text></text>  
+  </view>
+</view>
+<view>
+</view>

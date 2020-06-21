@@ -1,0 +1,12 @@
+<!--pages/welcome/welcome.wxml-->
+<!-- 打开小程序的欢迎页 -->
+<view class="container">
+  <image class="user_avatar" src="/images/index/avatar.jpg"></image>
+  <text class='user_name'>waltz</text>
+  <view class='motto'>
+    <text>Young, Different</text>
+  </view>
+  <view class='start' bindtap='toStart'>
+    <text>Start</text>
+  </view>
+</view>

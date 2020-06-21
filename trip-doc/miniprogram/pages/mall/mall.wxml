@@ -1,0 +1,15 @@
+<!--pages/mall/mall.wxml-->
+<view wx:for="{{book_list}}">
+  <van-card
+    price="{{item.price}}"
+    desc= "{{item.author[0]}}"
+    title="{{item.title}}"
+    thumb="{{item.image}}">
+  <view slot="tags">
+    <van-tag type="danger">{{item.tags[0].name}}</van-tag>
+  </view>
+  <view slot="footer">
+    <van-button data-id="{{item._id}}" type="primary" size='mini' bind:click="toBookDetail">查看详情</van-button>
+  </view>
+  </van-card>
+</view>

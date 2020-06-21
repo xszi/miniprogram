@@ -1,0 +1,11 @@
+<!--pages/articles/articles.wxml-->
+<view class='start_img'>
+  <image class='image' src='../../images/articles/surf.jpg'></image>
+</view>
+<view class='article'>
+  <text class='article_title'>冲浪的感受</text>
+  <view class='article_body'>
+    <text>{{article[0]}}</text>
+    <text>{{article[1]}}</text>
+  </view>
+</view>

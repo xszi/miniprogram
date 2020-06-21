@@ -1,0 +1,16 @@
+<!--pages/comunity/comunity.wxml-->
+<view class='come_play'><text>来嗨</text></view>
+<view class='comunity_wrap'>
+  <view class='on_road nav_box'>
+    <text>在路上</text>
+  </view>
+  <view class='extreme_learn nav_box'>
+    <text>极限教学</text>
+  </view>
+  <view class='encounter_le_art nav_box'>
+    <text>相遇文艺</text>
+  </view>
+    <view class='comunity_activity nav_box'>
+    <text>俱乐部活动</text>
+  </view>
+</view>

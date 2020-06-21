@@ -1,0 +1,84 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wxa8853aec58fd0f01",
+	"projectname": "trip-doc",
+	"libVersion": "2.2.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "pages/videos/videos",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "articles",
+					"pathName": "pages/articles/articles",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "comunity",
+					"pathName": "pages/comunity/comunity",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mall",
+					"pathName": "pages/mall/mall",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "bookDetail",
+					"pathName": "pages/mall/bookDetail/bookDetail"
+				}
+			]
+		}
+	}
+}

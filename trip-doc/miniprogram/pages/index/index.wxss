@@ -1,0 +1,23 @@
+/* pages/welcome/welcome.wxss */
+.user_avatar{
+  margin-top: 200rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.user_name{
+  margin-top: 20rpx;
+}
+.motto{
+  margin-top: 20rpx;
+}
+.start{
+  margin-top: 60rpx;
+  width: 250rpx;
+  height: 80rpx;
+  border: 1rpx solid #c77;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #000;
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/videos/videos",
+    "pages/articles/articles",
+    "pages/comunity/comunity",
+    "pages/mall/mall",
+    "pages/mall/bookDetail/bookDetail"
+  ],
+  "window": {
+    "backgroundColor": "light",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#373a41",
+    "navigationBarTitleText": "文旅小记",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3f81c1",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/videos/videos",
+        "iconPath": "images/tabBar/video02.png",
+        "selectedIconPath": "images/tabBar/video01.png",
+        "text": "V"
+      },
+      {
+        "pagePath": "pages/articles/articles",
+        "iconPath": "images/tabBar/articles02.png",
+        "selectedIconPath": "images/tabBar/articles01.png",
+        "text": "A"
+      },
+      {
+        "pagePath": "pages/comunity/comunity",
+        "iconPath": "images/tabBar/comunity02.png",
+        "selectedIconPath": "images/tabBar/comunity01.png",
+        "text": "C"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "iconPath": "images/tabBar/mall02.png",
+        "selectedIconPath": "images/tabBar/mall01.png",
+        "text": "M"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
